@@ -31,3 +31,12 @@ function isUniform(array){
     })
     console.log(answer)
 }
+
+// Create a function that sums all numbers of an array (assumed correct input)
+function sumArray(array){
+    let sum = 0
+    array.forEach(item=>{
+        sum = item + sum
+    });
+    console.log(sum);
+}
